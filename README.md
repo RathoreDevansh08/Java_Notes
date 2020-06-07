@@ -2,20 +2,20 @@
 Java practice notes
 
 
-## Installation:
+## Installation for Ubuntu Linux:
 NOTE: Prior to any step of installation, update the package index:
-                sudo apt update
+            `    sudo apt update    `    
 
 >> Java Runtime Environment (JRE)
     To check if its already installed (version check):
-                java -version
+            `    java -version    `
 
     If Java is not currently installed:
-                sudo apt install default-jre
+            `    sudo apt install default-jre    `
 
 >> Java Development Kit (JDK)
     To check if its already installed (version check):
-                javac -version
+            `    javac -version    `
 
     If Java is not currently installed:
-                sudo apt install default-jdk
+            `    sudo apt install default-jdk    `
