@@ -59,6 +59,21 @@ public class Main {
 
         //Strings are reference type in Java, but we can initialize it in a simler short hand
         String msg = "Hello World"; //equivalent to String msg = new String("Hello World");
+        msg = msg + "!!"; //concatenation method
+        System.out.println(msg); //Output > Hello World!!
+
+        /*
+            Several methods of Strign class:
+            startsWith(), endsWith(), indexOf(), length(), replace()...
+        */
+        System.out.println(msg.endsWith("!")); //Output > true
+        System.out.println(msg.indexOf("sky")); //Output > -1
+        System.out.println(msg.toLowerCase()); //Output > hello world!!
+        System.out.println(msg); //Output > Hello World!!  : bcs in Java strings are immutable
+
+        String sampleString = "    Can't help it !   ";
+        System.out.println(sampleString.trim()); //Output > Can't help it !   : without extra spaces in front, end
+
     }
 
     //function belonging to a class is called its 'method'.
@@ -74,3 +89,5 @@ public class Main {
         Source Code --> Java Compiler -->  Byte Code --> Java Virtual Machine (JVM) --> Native Code
         (*.java)                           (*.class)                                    (Windows, Mac, Linux)
 */
+
+// Escape Sequences :: \n, \t, \b ...
