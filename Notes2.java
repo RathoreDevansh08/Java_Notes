@@ -1,6 +1,8 @@
 // Exceptions are Java's way to report errors
 
 import java.util.Arrays;
+import java.util.Scanner;
+import java.text.NumberFormat;
 
 public class Notes2 {
 
@@ -39,5 +41,41 @@ public class Notes2 {
         //note the Capital 'S' in 'String' keyword
         String intStr = "123";
         System.out.println(Integer.parseInt(intStr)); //Output > 123
+
+        double s3 = Double.parseDouble("1.1") + 2;
+        System.out.println(s3); //Output > 3.1
+
+
+        //Math class operations: max, min, floor, ceil, round
+        //Math.round: float -> int , double -> long
+        System.out.println(Math.round(1.3F)); // Ouput > 1
+        System.out.println(Math.ceil(2.5F)); // Output > 3.0 //Note it produces a double value & not int.
+        System.out.println(Math.random()); // Ouput > a random flaot value between 0 - 1
+
+        //We cannot create an instance of an abstract class.
+        //NumberFormat is an abstract class & hence the below code results in error.
+        //NumberFormat currency = new NumberFormat();
+        //Another method to make this work:
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        String result = currency.format(12345.678);
+        System.out.println(result); //Output > $12,345.68
+
+        //Can also write below stmt as : NumberFormat.getPercentInstance().format(0.1); //method chaining
+        NumberFormat perc = NumberFormat.getPercentInstance();
+        System.out.println(perc.format(0.1)); //Output > 10%
+
+
+        //Reading input in Java
+        Scanner scan = new Scanner(System.in);
+        byte age = scan.nextByte(); //other methods: next, nextLine, nextBool, nextFloat, nextDouble ...
+        //next is to input string.
+        //nextLine is to input complete line
+        System.out.println("Your age: " + age); //Input > 21, Output > Your age: 21
+
+        /*
+            System.out.print() :: prints
+            System.out.println() :: prints and enter into new line
+        */
+
     }
 }
