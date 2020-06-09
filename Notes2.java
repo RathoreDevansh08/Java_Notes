@@ -26,11 +26,18 @@ public class Notes2 {
         System.out.println(Arrays.deepToString(multiArr)); //Output > [[1, 0, 0], [0, 0, 0]]
 
         //Constants in Java are named in allCapital format.
-        //to declare a constant(which cannot be changed in the program) we use 'constant' keyword before declaration
-        constant float PI = 3.14F;
+        //to declare a constant(which cannot be changed in the program) we use 'final' keyword before declaration
+        final float PI = 3.14F;
 
         //operations: same as in C/C++
         int s = 10 / 3; //s=3
         double s2 = (double)10 / (double)3 ; //s2=3.3333333333333335 //type casting
+
+        short sh = 1;
+        int y = sh + 2; //Implicit typecasting > byte -> short -> int -> long -> float -> double
+
+        //note the Capital 'S' in 'String' keyword
+        String intStr = "123";
+        System.out.println(Integer.parseInt(intStr)); //Output > 123
     }
 }
