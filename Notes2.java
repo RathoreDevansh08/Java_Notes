@@ -1,3 +1,9 @@
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TOPICS :: Arrays, Constants('final'), Math methods, NumberFormat, Reading Input, trim.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 // Exceptions are Java's way to report errors
 
 import java.util.Arrays;
@@ -76,6 +82,7 @@ public class Notes2 {
             System.out.print() :: prints
             System.out.println() :: prints and enter into new line
         */
-
+        String name = scan.nextLine().trim();
+        System.out.println("Your name: " + name); // Input > "     DS Rathore", Output > "Your name: DS Rathore"
     }
 }

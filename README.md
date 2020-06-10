@@ -2,6 +2,7 @@
 Java practice notes <br/>
  <br/>
 
+
 ## History: <br/>
 * CREATORS > James Gosling, Mike Sheridan, and Patrick Naughton <br/>
 * TIME OF ORIGIN > June 1991 <br/>
@@ -28,17 +29,25 @@ Java practice notes <br/>
     - To check if its already installed (version check) -
 
                 java -version    
- 
+
     - If Java is not currently installed -
 
                 sudo apt install default-jre  
  <br/>
- 
+
 - Java Development Kit (JDK) > <br/>
     - To check if its already installed (version check) -
 
                 javac -version    
- 
+
     - If Java is not currently installed -
- 
+
                 sudo apt install default-jdk
+<br/>
+
+
+## References/Sources: <br/>
+* [Mosh Hamedani YouTube](https://www.youtube.com/watch?v=eIrMbAQSU34) <br/>
+* [tutorialspoint](https://www.tutorialspoint.com/java/index.htm) <br/>
+* [javaTpoint](https://www.javatpoint.com/java-tutorial) <br/>
+<br/>

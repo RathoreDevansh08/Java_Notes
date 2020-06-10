@@ -1,3 +1,9 @@
+/*
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+TOPICS :: Packages, Class, Methods, Printing Output, Data types, Variable Declaration, String methods.
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+
 /* Multiline comment */
 // Singleline comments
 
@@ -12,7 +18,7 @@ import java.awt.*; //for Point class
 
 //Class: container to one or more functions
 //Every Java program has at least one class
-public class Main {
+public class Notes1 {
 
     //compulsory function in every program
     public static void main(String[] args) { //{ for a function is in the same line after ')' as a convention
@@ -63,7 +69,7 @@ public class Main {
         System.out.println(msg); //Output > Hello World!!
 
         /*
-            Several methods of Strign class:
+            Several methods of String class:
             startsWith(), endsWith(), indexOf(), length(), replace()...
         */
         System.out.println(msg.endsWith("!")); //Output > true
