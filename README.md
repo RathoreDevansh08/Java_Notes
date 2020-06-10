@@ -1,7 +1,9 @@
 # Java_Notes
 Java practice notes <br/>
- <br/>
+<br/>
 
+<img src="java_logo2.jpg" alt="LOGO" width="200"  align="right"  />
+ 
 
 ## History: <br/>
 * CREATORS > James Gosling, Mike Sheridan, and Patrick Naughton <br/>
