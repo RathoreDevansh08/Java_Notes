@@ -3,7 +3,7 @@ Java practice notes <br/>
 <br/>
 
 <img src="java_logo2.jpg" alt="LOGO" width="200"  align="right"  />
- 
+
 
 ## History: <br/>
 * CREATORS > James Gosling, Mike Sheridan, and Patrick Naughton <br/>
@@ -52,4 +52,5 @@ Java practice notes <br/>
 * [Mosh Hamedani YouTube](https://www.youtube.com/watch?v=eIrMbAQSU34) <br/>
 * [tutorialspoint](https://www.tutorialspoint.com/java/index.htm) <br/>
 * [javaTpoint](https://www.javatpoint.com/java-tutorial) <br/>
+* [w3schools](https://www.w3schools.com/java/default.asp)<br/>
 <br/>
