@@ -8,6 +8,7 @@ TOPICS :: Packages, Class, Methods, Printing Output, Data types, Variable Declar
 // Singleline comments
 
 //For naming methods, identifiers: camelCaseConvention, for classes: PascalNamingConvention.
+//Methods are used to perform certain actions, and they are also known as functions.
 
 //package com.dsr; //package declaration > to import class Main from /com/dsr
 // incase of using this package compile the code as: java com.dsr.Main (current directory: 'src' -> com -> dsr -> Main)
@@ -22,6 +23,7 @@ public class Notes1 {
 
     //compulsory function in every program
     public static void main(String[] args) { //{ for a function is in the same line after ')' as a convention
+    //static means that the method belongs to the Notes1 class and not an object of the Notes1 class.
         /*
             Enter point for programs.
             Initial function to execute.

@@ -52,7 +52,7 @@ public class Notes2 {
         System.out.println(s3); //Output > 3.1
 
 
-        //Math class operations: max, min, floor, ceil, round
+        //Math class operations: max, min, floor, ceil, round, abs, sqrt
         //Math.round: float -> int , double -> long
         System.out.println(Math.round(1.3F)); // Ouput > 1
         System.out.println(Math.ceil(2.5F)); // Output > 3.0 //Note it produces a double value & not int.
